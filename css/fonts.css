@@ -1,0 +1,267 @@
+/*** Fonte HabelDemo ***/
+@font-face{
+    font-family: HabelDemo;
+    src: url("../fonts/HabelDemo.otf");
+}
+
+/*** Fontes Heading Pro ***/
+@font-face {
+    font-family: HeadingProBoldItalicTrial;
+    src: url("../fonts/Heading-Pro-Bold-Italic-trial.ttf");
+    font-style: italic;
+}
+
+@font-face{
+    font-family: HeadingProBoldTrial;
+    src: url("../fonts/Heading-Pro-Bold-trial.ttf");
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: HeadingProBookTrial;
+    src: url("../fonts/Heading-Pro-Book-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProExtraBoldItalicTrial;
+    src: url("../fonts/Heading-Pro-ExtraBold-Italic-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProExtraBoldTrial;
+    src: url("../fonts/Heading-Pro-ExtraBold-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProExtraLight-Italic-Trial;
+    src: url("../fonts/Heading-Pro-ExtraLight-Italic-trial.ttf");
+    font-style: italic;
+}
+
+@font-face{
+    font-family: HeadingProExtraLightTrial;
+    src: url("../fonts/Heading-Pro-ExtraLight-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProHeavyItalicTrial;
+    src: url("../fonts/Heading-Pro-Heavy-Italic-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProHeavyTrial;
+    src: url("../fonts/Heading-Pro-Heavy-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProItalicTrial;
+    src: url("../fonts/Heading-Pro-Italic-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProLightItalicTrial;
+    src: url("../fonts/Heading-Pro-Light-Italic-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProLightTrial;
+    src: url("../fonts/Heading-Pro-Light-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProThinItalicTrial;
+    src: url("../fonts/Heading-Pro-Thin-Italic-trial.ttf");
+}
+
+@font-face{
+    font-family: HeadingProThinTrial;
+    src: url("../fonts/Heading-Pro-Thin-trial.ttf");
+}
+
+/*** Fontes Raleway ***/
+@font-face{
+    font-family: RalewayBlack;
+    src: url("../fonts/Raleway-Black.ttf");
+}
+
+@font-face{
+    font-family: RalewayBlackItalic;
+    src: url("../fonts/Raleway-BlackItalic.ttf");
+}
+
+@font-face{
+    font-family: RalewayBold;
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+
+@font-face{
+    font-family: RalewayBoldItalic;
+    src: url("../fonts/Raleway-BoldItalic.ttf");
+}
+
+@font-face{
+    font-family: RalewayExtraBold;
+    src: url("../fonts/Raleway-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: RalewayExtraBoldItalic;
+    src: url("../fonts/Raleway-ExtraBoldItalic.ttf");
+}
+
+@font-face{
+    font-family: RalewayExtraLight;
+    src: url("../fonts/Raleway-ExtraLight.ttf");
+}
+
+@font-face{
+    font-family: RalewayExtraLightItalic;
+    src: url("../fonts/Raleway-ExtraLightItalic.ttf");
+}
+
+@font-face{
+    font-family: RalewayItalic;
+    src: url("../fonts/Raleway-Italic.ttf");
+}
+
+@font-face{
+    font-family: RalewayLight;
+    src: url("../fonts/Raleway-Light.ttf");
+}
+
+@font-face{
+    font-family: RalewayLightItalic;
+    src: url("../fonts/Raleway-LightItalic.ttf");
+}
+
+@font-face{
+    font-family: RalewayMedium;
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+
+@font-face{
+    font-family: RalewayMediumItalic;
+    src: url("../fonts/Raleway-MediumItalic.ttf");
+}
+
+@font-face{
+    font-family: RalewayRegular;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face{
+    font-family: RalewaySemiBold;
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
+@font-face{
+    font-family: RalewaySemiBoldItalic;
+    src: url("../fonts/Raleway-SemiBoldItalic.ttf");
+}
+
+@font-face{
+    font-family: RalewayThin;
+    src: url("../fonts/Raleway-Thin.ttf");
+}
+
+@font-face{
+    font-family: RalewayThinItalic;
+    src: url("../fonts/Raleway-ThinItalic.ttf");
+}
+
+/*** Fontes Roboto ***/
+@font-face{
+    font-family: RobotoBlack;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+@font-face{
+    font-family: RobotoBlackItalic;
+    src: url("../fonts/Roboto-BlackItalic.ttf");
+}
+
+@font-face{
+    font-family: RobotoBold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face{
+    font-family: RobotoBoldItalic;
+    src: url("../fonts/Roboto-BoldItalic.ttf");
+}
+
+@font-face{
+    font-family: RobotoItalic;
+    src: url("../fonts/Roboto-Italic.ttf");
+}
+
+@font-face{
+    font-family: RobotoLight;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face{
+    font-family: RobotoLightItalic;
+    src: url("../fonts/Roboto-LightItalic.ttf");
+}
+
+@font-face{
+    font-family: RobotoMedium;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face{
+    font-family: RobotoMediumItalic;
+    src: url("../fonts/Roboto-MediumItalic.ttf");
+}
+
+@font-face{
+    font-family: RobotoRegular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face{
+    font-family: RobotoThin;
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+
+@font-face{
+    font-family: RobotoThinItalic;
+    src: url("../fonts/Roboto-ThinItalic.ttf");
+}
+
+@font-face{
+    font-family: RobotoCondensedBold;
+    src: url("../fonts/RobotoCondensed-Bold.ttf");
+}
+
+@font-face{
+    font-family: RobotoCondensedBoldItalic;
+    src: url("../fonts/RobotoCondensed-BoldItalic.ttf");
+}
+
+@font-face{
+    font-family: RobotoCondensedItalic;
+    src: url("../fonts/RobotoCondensed-Italic.ttf");
+}
+
+@font-face{
+    font-family: RobotoCondensedLight;
+    src: url("../fonts/RobotoCondensed-Light.ttf");
+}
+
+@font-face{
+    font-family: RobotoCondensedLightItalic;
+    src: url("../fonts/RobotoCondensed-LightItalic.ttf");
+}
+
+@font-face{
+    font-family: RobotoCondensedRegular;
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
+/*** Fonte Sarala ***/
+@font-face{
+    font-family: SaralaBold;
+    src: url("../fonts/Sarala Bold.ttf");
+}
