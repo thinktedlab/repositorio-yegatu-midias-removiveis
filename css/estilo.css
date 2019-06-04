@@ -2,3 +2,149 @@
     padding: 0;
     margin: 0;
 }
+
+/********************************* 
+**** Página Index (Bem-Vindo) ****
+*********************************/
+
+/*** Cor do Menu ***/
+#nav-index{
+    background-color: transparent;
+    box-shadow: none;
+}
+/******************/
+
+/*** Posição da Logo Inicial ***/
+#logo1{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+@media(max-width: 993px){
+    #logo1{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 414px){
+    nav .brand-logo{
+        left: 22%;
+    }
+
+    #logo1{
+        transform: scale(0.7,0.7)
+    }
+}
+
+@media(max-width: 320px){
+    nav .brand-logo{
+        left: 15%;
+    }
+}
+
+/*******************************/
+
+
+/*** Posição e tamanho das letras do menu ***/
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    height: 264px;
+}
+
+@media(max-width: 992px){
+    nav{
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 414px){
+    nav{
+        padding-top: 0;
+    }
+}
+
+ul li a{
+    font-family: SaralaBold;
+    font-size: 16pt;
+}
+
+ul li{
+    margin-right: 30px;
+}
+
+nav ul{
+    margin-top: 15px;
+}
+/********************************************/
+
+/*** Background da Página ***/
+#fundo-index{
+    background-image: url("../img/background-index.png");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#filtro-index{
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+}
+
+/*****************************/
+
+/*** Seção Bem-Vindo ***/
+
+/*** Texto ***/
+.texto-bem-vindo{
+    margin-top: 70px;
+    text-align: center;
+}
+
+h2#bem-vindo{
+    font-family: RalewayExtraBold;
+    font-size: 65pt;
+    color: white;
+}
+
+h1#umbuesa-yegatu{
+    font-family: HabelDemo;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+}
+
+#descricao-umbuesa-yegatu{
+    font-family: SaralaBold;
+    font-size: 20pt;
+    color: white;
+    max-width: 790px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+@media(max-width: 564px){
+    h2#bem-vindo{
+        font-size: 50pt;
+    }
+
+    h1#umbuesa-yegatu{
+        font-size: 40pt;
+    }
+}
+
+@media(max-width: 420px){
+    h2#bem-vindo{
+        font-size: 40pt;
+    }
+
+    h1#umbuesa-yegatu{
+        font-size: 30pt; 
+    }
+
+    #descricao-umbuesa-yegatu{
+        font-size: 13pt;
+    }
+}
