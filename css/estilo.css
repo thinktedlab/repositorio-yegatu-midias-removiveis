@@ -70,7 +70,7 @@ ul li a{
     font-size: 16pt;
 }
 
-ul li{
+ul.lista-menu li{
     margin-right: 30px;
 }
 
@@ -88,7 +88,7 @@ nav ul{
 }
 
 #filtro-index{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.95);
     min-height: 100vh;
 }
 
