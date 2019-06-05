@@ -49,7 +49,7 @@
 nav{
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 30px;
+    /*padding-right: 30px;*/
     height: 264px;
 }
 
@@ -74,7 +74,7 @@ ul.lista-menu li{
     margin-right: 30px;
 }
 
-nav ul{
+nav ul.lista-menu{
     margin-top: 15px;
 }
 /********************************************/
@@ -148,3 +148,47 @@ h1#umbuesa-yegatu{
         font-size: 13pt;
     }
 }
+
+/******************************/
+
+/********************************* 
+************ Páginas *************
+*********************************/
+
+/*** Background das Páginas secundárias ***/
+.fundo-paginas{
+    background-image: url("../img/background-paginas.png");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/******************************************/
+
+/*** Menu das páginas secundárias ***/
+.nav-paginas{
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 80px;
+    background-color: #BAAA85;
+}
+
+div.nav-wrapper{
+    background-image: url("../img/bg-nav.png");
+}
+
+nav ul.lista-menu2{
+    margin-top: 10px;
+}
+
+ul.lista-menu2 li{
+    margin-right: 30px;
+}
+
+/********************************************/
+
+/*** Logo das páginas secundárias ***/
+.logo2{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+/*****************************************/
