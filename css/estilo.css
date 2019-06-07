@@ -27,7 +27,7 @@
 }
 
 @media(max-width: 414px){
-    nav .brand-logo{
+    nav#nav-index .brand-logo{
         left: 22%;
     }
 
@@ -68,6 +68,14 @@ nav{
 ul li a{
     font-family: SaralaBold;
     font-size: 16pt;
+}
+
+@media(min-width: 994px) and (max-width: 1200px){
+    ul li a{
+        font-size: 12pt;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 }
 
 ul.lista-menu li{
@@ -152,7 +160,7 @@ h1#umbuesa-yegatu{
 /******************************/
 
 /********************************* 
-************ Páginas *************
+******** Páginas em Geral ********
 *********************************/
 
 /*** Background das Páginas secundárias ***/
@@ -191,4 +199,141 @@ ul.lista-menu2 li{
     margin-top: 10px;
     margin-left: 30px;
 }
+
+@media(max-width: 992px){
+    .logo2{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .nav-wrapper{
+        padding-top: 10px;
+    }
+}
 /*****************************************/
+
+/*** Distância do conteúdo para o menu ***/
+.margin-top{
+    margin-top: 30px;
+}
+/******************************************/
+
+/*** Background texto Sobre e Histórias ***/
+.bg{
+    background-color: #E9E0D6;
+}
+
+@media(max-width: 976px){
+    #sobre .card-image img{
+        margin-bottom: 20px;
+    }
+}
+/*******************************************/
+
+/********************************* 
+***** Páginas Yegatu (Sobre) *****
+*********************************/
+
+/*** Titulo do conteúdo ***/
+span.titulo-sobre.card-title{
+    font-family: RalewayExtraBold;
+    font-size: 30pt;
+    
+}
+
+@media(max-width: 420px){
+    span.titulo-sobre.card-title{
+        font-size: 25pt;
+    }
+}
+
+#sobre.card .card-image .card-title{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+@media(max-width: 1250px){
+    #sobre.card .card-image .card-title {
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 14px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 976px){
+    #sobre.card .card-image .card-title{
+        position: relative;
+        padding: 0;
+        padding-top: 25px;
+    }
+
+    #sobre.card .card-image{
+        background-color: #E9E0D6;
+        text-align: center;
+    }
+}
+
+
+/*******************************/
+
+/*** Texto do Conteúdo ***/
+.texto-sobre{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: RobotoRegular;
+    font-size: 15pt;
+    color: #808080;
+}
+
+@media(max-width: 976px){
+    .texto-sobre{
+        margin-left: 0;
+    }
+}
+/************************/
+
+/*** Imagem conteúdo Sobre ***/
+.imagem-sobre{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+@media(min-width: 1601px){
+    .imagem-sobre{
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 1301px) and (max-width: 1600px){
+    .imagem-sobre{
+        margin-top: 10%;
+    }
+}
+
+@media(min-width: 1200px) and (max-width: 1300px){
+    .imagem-sobre{
+        margin-top: 50%;
+    }
+}
+
+.imagem-sobre img{
+    width: 100%;
+}
+
+#mobile{
+    display: none;
+}
+
+@media(max-width: 1200px){
+    #mobile{
+        display: inline;
+    }
+
+    #desktop{
+        display: none;
+    }
+}
