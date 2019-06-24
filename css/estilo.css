@@ -342,6 +342,7 @@ span.titulo-sobre.card-title{
 ******* Template História ********
 *********************************/
 
+/******* Imagem de Destaque *******/
 .img-destaque{
     width: 100%;
     height: 400px;
@@ -352,6 +353,33 @@ span.titulo-sobre.card-title{
 
 .faixa-img{
     width: 100%;
-    height: 30px;
+    height: 50px;
     background-color: #1AA854;
 }
+
+/**********************************/
+
+/************* Card História ***************/
+.content-historia{
+    margin-top: -110px;
+}
+
+.card-historia{
+    background-color: #E9E0D6;
+}
+
+.titulo-historia{
+    background-color: #C7B299;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.conteudo-card{
+    padding-top: 50px;
+}
+
+.texto-historia{
+    padding: 50px 40px 30px 40px;;
+}
+
