@@ -369,10 +369,12 @@ span.titulo-sobre.card-title{
 }
 
 .titulo-historia{
-    background-color: #C7B299;
+    background-color: #DDD1C2;
     padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 40px;
+    font-family: RobotoRegular;
+    height: 96px;
 }
 
 .conteudo-card{
@@ -381,5 +383,48 @@ span.titulo-sobre.card-title{
 
 .texto-historia{
     padding: 50px 40px 30px 40px;;
+}
+
+.nome-autor{
+    margin-top: 50px;
+    margin-right: 10px;
+    float: right;
+}
+
+@media(max-width: 360px){
+    .nome-autor{
+        margin-top: 17px;
+    }
+}
+
+p.card-title.nome-autor{
+    font-size: 1.0rem;
+}
+
+.texto-historia{
+    font-family: RobotoRegular;
+    font-size: 12pt;
+    line-height: 23pt;
+    color: #808080;
+}
+
+.buttons-rodape{
+    padding-bottom: 20px;
+}
+
+.fundo-btn{
+    width: 130px;
+    height: 80px;
+    background-image: url("../img/fundo-buttons.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cor-btn{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #8F8279;
+    width: 130px;
 }
 
