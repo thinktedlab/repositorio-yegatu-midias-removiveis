@@ -408,6 +408,8 @@ p.card-title.nome-autor{
     color: #808080;
 }
 
+/********** Botões do Rodapé *****************/
+
 .buttons-rodape{
     padding-bottom: 20px;
 }
@@ -428,3 +430,100 @@ p.card-title.nome-autor{
     width: 130px;
 }
 
+/*********************************************/
+
+/********************************* 
+******* Página Histórias *********
+*********************************/
+
+/****** Título e subtítulo da página *********/
+
+.header-historias{
+    padding-left: 0.75rem;
+}
+
+.header-historias h2{
+    font-family: RalewayExtraBold;
+    color: white;
+    margin-bottom: 10px;;
+}
+
+.header-historias h3{
+    font-family: SaralaBold;
+    color: #CCCCCC;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+/******************************************/
+
+
+.card-lista-historia{
+    border-radius: 2% 2% 2% 2%;
+}
+
+.card-lista-historia .card-image{
+    border-radius: 2% 2% 0 0;
+}
+
+.card .card-image img{
+    border-radius: 2% 2% 0 0;
+}
+
+div.card-content.informacoes-historia{
+    border-radius: 0 0 2% 2%;
+    padding: 24px 15px 24px 15px;
+}
+
+.faixa-titulo{
+    height: 50px;
+    background-color: #DDD1C2; 
+    padding-top: 8px;
+}
+
+.titulos-historias{
+    font-family: RobotoRegular;
+    padding-left: 15px;
+}
+
+span.card-title.titulos-historias{
+    font-size: 15pt;
+}
+
+.icon-leitura{
+    width: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+@media(max-width: 484px){
+    span.card-title.titulos-historias{
+        font-size: 12pt;
+    }
+
+    .icon-leitura{
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 393px){
+    span.card-title.titulos-historias{
+        font-size: 10pt;
+    }
+}
+
+@media(max-width: 320px){
+    span.card-title.titulos-historias{
+        font-size: 9pt;
+    }
+}
+
+.informacoes-historia{
+    background-color: #E9E0D6;
+}
+
+.informacoes-historia p{
+    font-family: RobotoRegular;
+    font-size: 10pt;
+    color: #808080;
+}
