@@ -445,7 +445,8 @@ p.card-title.nome-autor{
 .header-historias h2{
     font-family: RalewayExtraBold;
     color: white;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    font-size: 35pt;
 }
 
 .header-historias h3{
@@ -453,6 +454,7 @@ p.card-title.nome-autor{
     color: #CCCCCC;
     margin-top: 0;
     margin-bottom: 60px;
+    font-size: 25pt;
 }
 /******************************************/
 
@@ -496,6 +498,18 @@ span.card-title.titulos-historias{
     margin-top: 25px;
 }
 
+@media(min-width: 1200px) and (max-width: 1256px){
+    .icon-leitura{
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 600px){
+    .icon-leitura{
+        margin-top: 25px;
+    }
+}
+
 @media(max-width: 484px){
     span.card-title.titulos-historias{
         font-size: 12pt;
@@ -506,17 +520,11 @@ span.card-title.titulos-historias{
     }
 }
 
-@media(max-width: 393px){
-    span.card-title.titulos-historias{
-        font-size: 10pt;
+@media(max-width: 485px){
+    .icon-leitura{
+        margin-top: 25px;
     }
-}
-
-@media(max-width: 320px){
-    span.card-title.titulos-historias{
-        font-size: 9pt;
-    }
-}
+}   
 
 .informacoes-historia{
     background-color: #E9E0D6;
