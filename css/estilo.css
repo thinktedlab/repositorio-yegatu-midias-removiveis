@@ -496,6 +496,7 @@ span.card-title.titulos-historias{
     float: right;
     margin-right: 10px;
     margin-top: 25px;
+    border-radius: 100%;
 }
 
 @media(min-width: 1200px) and (max-width: 1256px){
@@ -534,4 +535,8 @@ span.card-title.titulos-historias{
     font-family: RobotoRegular;
     font-size: 10pt;
     color: #808080;
+}
+
+a{
+    color: black;
 }
