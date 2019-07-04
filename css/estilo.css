@@ -540,3 +540,17 @@ span.card-title.titulos-historias{
 a{
     color: black;
 }
+
+/*********************************************/
+
+/********************************* 
+******* Página Animações *********
+*********************************/
+
+.animacao{
+    position: relative;
+}
+
+.card-lista-animacao{
+    width: 100%;
+}
