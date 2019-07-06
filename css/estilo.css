@@ -547,6 +547,7 @@ a{
 ******* Página Animações *********
 *********************************/
 
+/***** Cards das animações **************/
 .animacao{
     position: relative;
 }
@@ -566,7 +567,9 @@ a{
     bottom: 0;
     width: 100%;
 }
+/******************************/
 
+/**** Botões Pause e Play ****/
 .btn-play{
     position: absolute;
     top: 50%;
@@ -580,6 +583,8 @@ a{
     height: 60px;
 }
 
-#pause1{
+.pauses{
     display: none;
 }
+
+/*****************************/
