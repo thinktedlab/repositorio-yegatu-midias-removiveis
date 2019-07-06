@@ -552,5 +552,34 @@ a{
 }
 
 .card-lista-animacao{
+    margin: 0;
     width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.faixa-titulo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-play{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    left: 0;
+    right: 0;
+}
+
+.btn-play  img{
+    width: 60px;
+    height: 60px;
+}
+
+#pause1{
+    display: none;
 }
