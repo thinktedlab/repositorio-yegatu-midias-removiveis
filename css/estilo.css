@@ -598,3 +598,32 @@ a{
 }
 
 /*****************************/
+
+/********************************* 
+******* Página Vídeos *********
+*********************************/
+
+/***** Cards das animações **************/
+.video{
+    position: relative;
+}
+
+.card-lista-video{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.faixa-titulo-video{
+    height: 50px;
+    background-color: #DDD1C2; 
+    padding-top: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/******************************/

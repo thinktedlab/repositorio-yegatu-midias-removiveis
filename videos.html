@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vídeos</title>
+
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <link rel="stylesheet" href="css/icon.css"> 
+    <script src="js/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="fundo-paginas">
+        <header>
+            <!-- Início Menu -->
+            <nav class="nav-paginas">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo logo2"><img src="img/logo2.png" alt="Umbuesa Yegatu"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down lista-menu2">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Yegatu</a></li>
+                        <li><a href="#">Histórias</a></li>
+                        <li><a href="#">Animações</a></li>
+                        <li><a href="#">Vídeos</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Yegatu</a></li>
+                <li><a href="#">Histórias</a></li>
+                <li><a href="#">Animações</a></li>
+                <li><a href="#">Vídeos</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <!-- Fim Menu-->
+        </header>
+
+        <section class="conteudo">
+            <div class="container margin-top">
+                <div class="header-historias">
+                    <h2>Vídeos</h2>
+                    <h3>Informações da página</h3>
+                </div>
+                <div class="lista-historias">
+                    <div class="row">
+
+                        <!-- Card da animação -->
+                        <div class="col s12 m6 l4 xl3">
+                            <div class="video">
+                                <video class="responsive-video" id="video1">
+                                    <source src="animacoes/xipu_yupirugasa.mp4" type="video/mp4">
+                                </video>
+                                <div class="card card-lista-video hoverable card-play">
+                                    <div class="btn-play" onclick="openFullscreen(video1,play1,pause1)">
+                                        <img src="img/animacoes/btn-play.png" id="play1"> 
+                                        <img src="img/animacoes/btn-pause.png" id="pause1" class="pauses"> 
+                                    </div>
+                                    <div class="faixa-titulo-video">
+                                      <span class="card-title titulos-historias">A origem do Sol</span>                                  
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <!-- Fim card da animação -->
+
+                        <!-- Card da animação -->
+                        <div class="col s12 m6 l4 xl3">
+                            <div class="video">
+                                <video class="responsive-video" id="video2">
+                                    <source src="animacoes/xipu_yupirugasa.mp4" type="video/mp4">
+                                </video>
+                                <div class="card card-lista-video hoverable card-play">
+                                    <div class="btn-play" onclick="openFullscreen(video2,play2,pause2)">
+                                        <img src="img/animacoes/btn-play.png" id="play2"> 
+                                        <img src="img/animacoes/btn-pause.png" id="pause2" class="pauses"> 
+                                    </div>
+                                    <div class="faixa-titulo-video">
+                                        <span class="card-title titulos-historias">A origem do Sol</span>                                  
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <!-- Fim card da animação -->
+
+                        <!-- Card da animação -->
+                        <div class="col s12 m6 l4 xl3">
+                            <div class="video">
+                                <video class="responsive-video" id="video3">
+                                    <source src="animacoes/xipu_yupirugasa.mp4" type="video/mp4">
+                                </video>
+                                <div class="card card-lista-video hoverable card-play">
+                                    <div class="btn-play" onclick="openFullscreen(video3,play3,pause3)">
+                                        <img src="img/animacoes/btn-play.png" id="play3"> 
+                                        <img src="img/animacoes/btn-pause.png" id="pause3" class="pauses"> 
+                                    </div>
+                                    <div class="faixa-titulo-video">
+                                        <span class="card-title titulos-historias">A origem do Sol</span>                                  
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <!-- Fim card da animação -->
+
+                        <!-- Card da animação -->
+                        <div class="col s12 m6 l4 xl3">
+                            <div class="video">
+                                <video class="responsive-video" id="video4">
+                                    <source src="animacoes/xipu_yupirugasa.mp4" type="video/mp4">
+                                </video>
+                                <div class="card card-lista-video hoverable card-play">
+                                    <div class="btn-play" onclick="openFullscreen(video4,play4,pause4)">
+                                        <img src="img/animacoes/btn-play.png" id="play4"> 
+                                        <img src="img/animacoes/btn-pause.png" id="pause4" class="pauses"> 
+                                    </div>
+                                    <div class="faixa-titulo-video">
+                                        <span class="card-title titulos-historias">A origem do Sol</span>                                  
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                        <!-- Fim card da animação -->
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+        
+    
+    <!-- Está no fim para otimizar o caregamento -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/funcoes_video.js"></script>
+
+    <!-- Inicializa o sidenav (Menu lateral no mobile) -->
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+</html>
