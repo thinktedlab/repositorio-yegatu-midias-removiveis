@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+body{
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 /********************************* 
 **** Página Index (Bem-Vindo) ****
 *********************************/
@@ -562,7 +569,10 @@ a{
     text-align: center;
 }
 
-.faixa-titulo{
+.faixa-titulo-animacao{
+    height: 50px;
+    background-color: #DDD1C2; 
+    padding-top: 8px;
     position: absolute;
     bottom: 0;
     width: 100%;
