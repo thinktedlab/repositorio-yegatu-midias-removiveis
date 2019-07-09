@@ -58,13 +58,12 @@
                         <!-- Card da animação -->
                         <div class="col s12 m6 l4 xl3">
                             <div class="animacao">
-                                <video class="responsive-video" id="video1">
+                                <video class="responsive-video">
                                     <source src="animacoes/xipu_yupirugasa.mp4" type="video/mp4">
                                 </video>
                                 <div class="card card-lista-animacao hoverable card-play">
-                                    <div class="btn-play" onclick="openFullscreen(video1,play1,pause1)">
-                                        <img src="img/animacoes/btn-play.png" id="play1"> 
-                                        <img src="img/animacoes/btn-pause.png" id="pause1" class="pauses"> 
+                                    <div class="btn-play modal-trigger" href="#modal1" onclick="playPause(animacao1)">
+                                        <img src="img/animacoes/btn-play.png">  
                                     </div>
                                     <div class="faixa-titulo-animacao">
                                         <span class="card-title titulos-historias">A origem do Sol</span>                                  
@@ -77,13 +76,12 @@
                         <!-- Card da animação -->
                         <div class="col s12 m6 l4 xl3">
                             <div class="animacao">
-                                <video class="responsive-video" id="video2">
+                                <video class="responsive-video">
                                     <source src="animacoes/xipu_yupirugasa.mp4" type="video/mp4">
                                 </video>
                                 <div class="card card-lista-animacao hoverable card-play">
-                                    <div class="btn-play" onclick="openFullscreen(video2,play2,pause2)">
-                                        <img src="img/animacoes/btn-play.png" id="play2"> 
-                                        <img src="img/animacoes/btn-pause.png" id="pause2" class="pauses"> 
+                                    <div class="btn-play modal-trigger" href="#modal2" onclick="playPause(animacao2)">
+                                        <img src="img/animacoes/btn-play.png">  
                                     </div>
                                     <div class="faixa-titulo-animacao">
                                         <span class="card-title titulos-historias">A origem do Sol</span>                                  
@@ -93,43 +91,27 @@
                         </div>
                         <!-- Fim card da animação -->
 
-                        <!-- Card da animação -->
-                        <div class="col s12 m6 l4 xl3">
-                            <div class="animacao">
-                                <video class="responsive-video" id="video3">
+                        <!-- Modal Structure -->
+                        <div id="modal1" class="modal">
+                            <p class="title-video">A origem do Sol</p>
+                            <button class="btn modal-close btn-fechar" onclick="stopVideo(animacao1)">X</button><br>
+                            <div class="video">
+                                <video class="responsive-video" id="animacao1" controls>
                                     <source src="animacoes/xipu_yupirugasa.mp4" type="video/mp4">
                                 </video>
-                                <div class="card card-lista-animacao hoverable card-play">
-                                    <div class="btn-play" onclick="openFullscreen(video3,play3,pause3)">
-                                        <img src="img/animacoes/btn-play.png" id="play3"> 
-                                        <img src="img/animacoes/btn-pause.png" id="pause3" class="pauses"> 
-                                    </div>
-                                    <div class="faixa-titulo-animacao">
-                                        <span class="card-title titulos-historias">A origem do Sol</span>                                  
-                                    </div>
-                                </div>
-                            </div>                           
+                            </div>
                         </div>
-                        <!-- Fim card da animação -->
 
-                        <!-- Card da animação -->
-                        <div class="col s12 m6 l4 xl3">
-                            <div class="animacao">
-                                <video class="responsive-video" id="video4">
+                        <!-- Modal Structure -->
+                        <div id="modal2" class="modal">
+                            <p class="title-video">A origem do Sol</p>
+                            <button class="btn modal-close btn-fechar" onclick="stopVideo(animacao2)">X</button><br>
+                            <div class="video">
+                                <video class="responsive-video" id="animacao2" controls>
                                     <source src="animacoes/xipu_yupirugasa.mp4" type="video/mp4">
                                 </video>
-                                <div class="card card-lista-animacao hoverable card-play">
-                                    <div class="btn-play" onclick="openFullscreen(video4,play4,pause4)">
-                                        <img src="img/animacoes/btn-play.png" id="play4"> 
-                                        <img src="img/animacoes/btn-pause.png" id="pause4" class="pauses"> 
-                                    </div>
-                                    <div class="faixa-titulo-animacao">
-                                        <span class="card-title titulos-historias">A origem do Sol</span>                                  
-                                    </div>
-                                </div>
-                            </div>                           
+                            </div>
                         </div>
-                        <!-- Fim card da animação -->
                         
                     </div>
                 </div>
@@ -147,6 +129,7 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
+            $('.modal').modal();
         });
     </script>
 </body>
