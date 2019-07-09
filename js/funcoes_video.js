@@ -1,6 +1,6 @@
 var ativo = false;
 
-function playPause(elem,btn_play,btn_pause) {
+function playPause(elem) {
     if(ativo==false){
         elem.play();
         ativo = true;

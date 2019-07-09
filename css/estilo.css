@@ -606,6 +606,7 @@ a{
 /***** Cards das animações **************/
 .video{
     position: relative;
+    margin-bottom: 20px;
 }
 
 .card-lista-video{
@@ -627,3 +628,36 @@ a{
     width: 100%;
 }
 /******************************/
+
+.modal{
+    background-color: rgba(0,0,0,0);
+}
+
+.title-video{
+    width: 70%;
+    float: left;
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 30pt;
+}
+
+@media(max-width: 400px){
+    .title-video{
+        font-size: 20pt;
+    }
+}
+
+.btn-fechar{
+    float: right;
+    font-family: RobotoMedium;
+    font-size: 17pt;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #0071BC;
+    padding: 0;
+}
+
+.btn-fechar:hover{
+    background-color: #0071BC;
+}
