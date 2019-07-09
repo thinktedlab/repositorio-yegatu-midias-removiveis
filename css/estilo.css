@@ -597,6 +597,21 @@ a{
     display: none;
 }
 
+.btn-fechar-anima{
+    float: right;
+    font-family: RobotoMedium;
+    font-size: 17pt;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #0071BC;
+    padding: 0;
+}
+
+.btn-fechar-anima:hover{
+    background-color: rgb(1, 97, 161);
+}
+
 /*****************************/
 
 /********************************* 
@@ -647,17 +662,17 @@ a{
     }
 }
 
-.btn-fechar{
+.btn-fechar-video{
     float: right;
     font-family: RobotoMedium;
     font-size: 17pt;
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: #0071BC;
+    background-color: #E64251;
     padding: 0;
 }
 
-.btn-fechar:hover{
-    background-color: #0071BC;
+.btn-fechar-video:hover{
+    background-color: rgb(211, 38, 53);
 }
