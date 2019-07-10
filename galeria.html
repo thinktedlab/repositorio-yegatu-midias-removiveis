@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeria</title>
+
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <link rel="stylesheet" href="css/icon.css"> 
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script src="js/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="fundo-paginas">
+        <header>
+            <!-- Início Menu -->
+            <nav class="nav-paginas">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo logo2"><img src="img/logo2.png" alt="Umbuesa Yegatu"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down lista-menu2">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Yegatu</a></li>
+                        <li><a href="#">Histórias</a></li>
+                        <li><a href="#">Animações</a></li>
+                        <li><a href="#">Vídeos</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Yegatu</a></li>
+                <li><a href="#">Histórias</a></li>
+                <li><a href="#">Animações</a></li>
+                <li><a href="#">Vídeos</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <!-- Fim Menu-->
+        </header>
+
+        <section class="conteudo">
+            <div class="container margin-top">
+                <div class="header-historias">
+                    <h2>Galeria</h2>
+                    <h3>Informações da página</h3>
+                </div>
+
+                <div class="slider slider-single">
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                    <div><img src="img/historias/destaque.jpg" alt="" width="50%"></div>
+                </div>
+                <div class="slider slider-nav">
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                        <div><img src="img/historias/destaque.jpg" alt="" width="80%"></div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    
+        
+    
+    <!-- Está no fim para otimizar o caregamento -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/funcoes_video.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <!-- Inicializa o sidenav (Menu lateral no mobile) -->
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.modal').modal({
+                dismissible: false, // Modal can be dismissed by clicking outside of the modal
+                opacity: .8, // Opacity of modal background
+            });    
+
+            $('.slider-single').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                fade: false,
+                adaptiveHeight: true,
+                infinite: false,
+                useTransform: true,
+                speed: 400,
+                cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
+            });
+
+            $('.slider-nav')
+                .on('init', function(event, slick) {
+                    $('.slider-nav .slick-slide.slick-current').addClass('is-active');
+                })
+                .slick({
+                    slidesToShow: 7,
+                    slidesToScroll: 7,
+                    dots: false,
+                    focusOnSelect: false,
+                    infinite: false,
+                    responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 5,
+                        }
+                    }, {
+                        breakpoint: 640,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
+                        }
+                    }, {
+                        breakpoint: 420,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                    }
+                    }]
+                });
+
+            $('.slider-single').on('afterChange', function(event, slick, currentSlide) {
+                $('.slider-nav').slick('slickGoTo', currentSlide);
+                var currrentNavSlideElem = '.slider-nav .slick-slide[data-slick-index="' + currentSlide + '"]';
+                $('.slider-nav .slick-slide.is-active').removeClass('is-active');
+                $(currrentNavSlideElem).addClass('is-active');
+            });
+
+            $('.slider-nav').on('click', '.slick-slide', function(event) {
+                event.preventDefault();
+                var goToSingleSlide = $(this).data('slick-index');
+
+                $('.slider-single').slick('slickGoTo', goToSingleSlide);
+            });    
+        });
+
+    </script>
+</body>
+</html>
