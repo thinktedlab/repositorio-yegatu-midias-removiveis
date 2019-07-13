@@ -722,12 +722,15 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+/*****************************/
 
 /*** Tamanho do slider do footer ***/
 .slider-nav{
     height: 70px;
 }
+/*****************************/
 
+/***** Botões Next e Prev *****/
 .slick-prev{
     top: 40%;
     left: -100px;
@@ -743,4 +746,22 @@ a{
 
 .slick-next:before {
     content: url(../img/galeria/btn-next.png);
+}
+
+/*****************************/
+
+/********************************* 
+******** Página Contato **********
+*********************************/
+
+.img-midia-social{
+    margin-left: 10px;
+}
+.txt-midia-social{
+    width: 150px;    
+    font-family: RobotoBlack;
+    font-size: 11pt;
+    color: white;
+    float: right;
+    margin-right: 70px;
 }

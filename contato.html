@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vídeos</title>
+
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <link rel="stylesheet" href="css/icon.css"> 
+    <script src="js/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="fundo-paginas">
+        <header>
+            <!-- Início Menu -->
+            <nav class="nav-paginas">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo logo2"><img src="img/logo2.png" alt="Umbuesa Yegatu"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down lista-menu2">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Yegatu</a></li>
+                        <li><a href="#">Histórias</a></li>
+                        <li><a href="#">Animações</a></li>
+                        <li><a href="#">Vídeos</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Yegatu</a></li>
+                <li><a href="#">Histórias</a></li>
+                <li><a href="#">Animações</a></li>
+                <li><a href="#">Vídeos</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <!-- Fim Menu-->
+        </header>
+
+        <section class="conteudo">
+            <div class="container margin-top">
+                <header>               
+                    <div class="header-historias">
+                        <h2>Contato</h2>
+                        <h3>Informações para contato</h3>
+                    </div>                    
+                </header>       
+
+                <section id="informacoes-contato">
+                    <div class="row">
+                        <div class="col xl3">
+                            <div class="midia-social">
+                                <img src="img/whatsapp.png" alt="Whatsapp" class="img-midia-social"><p class="txt-midia-social">(92) XXXXX-XXXX</p>
+                            </div>
+
+                            <div class="midia-social">
+                                <img src="img/instagram.png" alt="Whatsapp" class="img-midia-social"><p class="txt-midia-social">instagram.com/user.name</p>
+                            </div>
+
+                            <div class="midia-social">
+                                <img src="img/facebook.png" alt="Whatsapp" class="img-midia-social"><p class="txt-midia-social">facebook.com/user.name</p>
+                            </div>
+                        </div>
+                        <div class="col xl9">
+                            <form action="" method="post"></form>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="parceiros">
+                    <div class="header-historias">
+                        <h2>Parceiros</h2>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+    
+        
+    
+    <!-- Está no fim para otimizar o caregamento -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/funcoes_video.js"></script>
+
+    <!-- Inicializa o sidenav (Menu lateral no mobile) -->
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.modal').modal({
+                dismissible: false, // Modal can be dismissed by clicking outside of the modal
+                opacity: .8, // Opacity of modal background
+            });            
+        });
+
+    </script>
+</body>
+</html>
