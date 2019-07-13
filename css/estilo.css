@@ -453,7 +453,7 @@ p.card-title.nome-autor{
     font-family: RalewayExtraBold;
     color: white;
     margin-bottom: 10px;
-    font-size: 35pt;
+    font-size: 33pt;
 }
 
 .header-historias h3{
@@ -461,7 +461,7 @@ p.card-title.nome-autor{
     color: #CCCCCC;
     margin-top: 0;
     margin-bottom: 60px;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 /******************************************/
 
@@ -764,4 +764,37 @@ a{
     color: white;
     float: right;
     margin-right: 70px;
+}
+
+input, textarea{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #CCCCCC;
+    margin-bottom: 20px;
+}
+
+#email{
+    height: 40px;
+}
+
+#mensagem{
+    min-height: 200px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #666666;
+}
+
+textarea{
+    padding: 10px 0 0 0;
+}
+
+.btn-enviar{
+    float: right;
+    margin-right: 10px;
+    background-color: #1AA854;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-size: 10pt;
 }
