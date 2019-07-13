@@ -710,3 +710,37 @@ a{
 	color: #c00;
 	background-color: #fff
 }
+
+/*** Tamanho do slider ***/
+.slider-single{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-carrossel{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** Tamanho do slider do footer ***/
+.slider-nav{
+    height: 70px;
+}
+
+.slick-prev{
+    top: 40%;
+    left: -100px;
+}
+
+.slick-next{
+    top: 40%;
+}
+
+.slick-prev:before {
+    content: url(../img/galeria/btn-prev.png);
+}
+
+.slick-next:before {
+    content: url(../img/galeria/btn-next.png);
+}
