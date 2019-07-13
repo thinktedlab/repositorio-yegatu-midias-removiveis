@@ -453,7 +453,7 @@ p.card-title.nome-autor{
     font-family: RalewayExtraBold;
     color: white;
     margin-bottom: 10px;
-    font-size: 33pt;
+    font-size: 30pt;
 }
 
 .header-historias h3{
@@ -461,7 +461,7 @@ p.card-title.nome-autor{
     color: #CCCCCC;
     margin-top: 0;
     margin-bottom: 60px;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 /******************************************/
 
@@ -771,6 +771,8 @@ input, textarea{
     border-radius: 3px;
     background-color: #CCCCCC;
     margin-bottom: 20px;
+    border: 2px solid #B3B3B3;
+    margin-left: 20px;
 }
 
 #email{
@@ -791,10 +793,10 @@ textarea{
 
 .btn-enviar{
     float: right;
-    margin-right: 10px;
     background-color: #1AA854;
     border-radius: 5px;
     width: 100px;
     height: 35px;
+    font-family: RobotoBold;
     font-size: 10pt;
 }
