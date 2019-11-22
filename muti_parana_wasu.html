@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Template História</title>
+    <title>Mũti: Paranã Wasu</title>
 
     <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/estilo.css"> 
-    <link rel="stylesheet" href="css/icon.css"> 
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/icon.css">
     <script src="js/jquery.min.js"></script>
-    
+
+    <style>
+        @media print {
+            .print {
+                display: none;
+            }
+
+            .content-historia {
+                margin-top: 100px;
+            }
+
+            p.card-title.nome-autor {
+                font-size: 0.7rem;
+            }
+
+            div.conteudo-card {
+                height: 700px;
+            }
+        }
+    </style>
+
 </head>
+
 <body>
     <div class="fundo-paginas">
         <header>
@@ -48,7 +70,7 @@
 
         <section class="conteudo">
             <!-- Imagem de Destaque -->
-            <div class="img-destaque"></div>
+            <div class="img-destaque img1"></div>
 
             <!-- Faixa Verde abaixo da Imagem -->
             <div class="faixa-img z-depth-1"></div>
@@ -60,40 +82,43 @@
                         <div class="card card-historia">
                             <div class="conteudo-card">
                                 <div class="titulo-historia">
-                                    <span class="card-title">Título História</span>
-                                    <p class="card-title nome-autor">Nome Autor(es)</p>
+                                    <span class="card-title">Mũti: Paranã Wasu</span>
+                                    <p class="card-title nome-autor">Emiro Liberato,
+                                        Lidemberg Melgueiro,
+                                        Rosivaldo Ribeiro</p>
                                 </div>
-                                
-                                <div class="texto-historia">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum felis non arcu aliquet, sit amet laoreet massa rhoncus. In maximus in ipsum eget iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur egestas leo ut nisl porttitor pellentesque. In elementum ex fringilla felis rhoncus lobortis. Suspendisse pellentesque hendrerit suscipit. Sed vitae ligula in elit maximus sollicitudin. Phasellus at ligula semper, vestibulum ipsum mollis, tristique lorem. Curabitur ornare est turpis, nec vestibulum libero ullamcorper eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin congue fringilla lectus, et tincidunt diam. Mauris tempus rutrum turpis, ut lacinia metus tempor gravida. Praesent malesuada eros sit amet turpis fermentum, in vulputate mauris varius.<br><br>
 
-                                            Curabitur id magna quam. Maecenas sit amet nisi eu dolor tincidunt pharetra. Sed sed mi bibendum, commodo lacus eu, molestie odio. Aenean nec pellentesque enim, sit amet consectetur mi. Aliquam quis blandit erat, mollis ultrices mauris. Morbi id tempus purus, nec elementum velit. Vestibulum ut ultricies odio, eget posuere erat. Cras eget nibh libero. Integer vehicula dapibus turpis, ut consectetur massa. Sed quis turpis posuere, bibendum ipsum a, laoreet risus. <br><br>
-                                            
-                                            Suspendisse nec sapien at orci sodales scelerisque a consectetur tortor. Quisque aliquet malesuada augue, et auctor nibh efficitur at. Praesent gravida lorem sed orci ultrices, sit amet porttitor ante finibus. Fusce in rutrum tellus. Nulla facilisis pellentesque tellus et volutpat. Vestibulum accumsan quis quam tincidunt condimentum. Ut quis turpis orci. Etiam in ligula vitae eros tincidunt varius imperdiet eu quam. Mauris sed aliquet erat. Sed in tempus leo. Fusce ut tellus ut nibh pellentesque pellentesque quis vel mi. Proin auctor metus at nunc porta tincidunt. Etiam elit odio, dignissim id mi in, venenatis tristique mi. Cras molestie consequat erat sed mattis. Sed egestas maximus odio, eget ultricies arcu semper quis. Sed pretium tellus sem, eget venenatis felis eleifend non.</p>
+                                <div class="texto-historia">
+                                    <p style="text-indent: 5%">Yakuate ke muiri kua mũdu upe tariku maita tamuyã takua
+                                        arã si aikue1
+                                        amana kurasi. Yame ara tasupe kua mirait uiuwaita Paranã wasu apirupi,
+                                        takuarã si aikeu amana su kurasi, aĩta tamiyakũta tamã piramiri tare piraiwaita
+                                        rese; si tapuri paranã upe karuka ramẽ, takua ke yãpituna usu uwari amana
+                                        turusu, ape paranã usu uwike...</p>
                                 </div>
 
                                 <div class="container buttons-rodape">
                                     <div class="row">
                                         <div class="col s12 push-s3 m4 l4 xl4 push-xl1">
-                                                <div class="fundo-btn">
-                                                        <button class="btn cor-btn">Português</button>
-                                                </div>
+                                            <div class="fundo-btn">
+                                                <button class="btn cor-btn">Português</button>
+                                            </div>
                                         </div>
 
                                         <div class="col s12 push-s3 m4 l4 xl4">
-                                                <div class="fundo-btn">
-                                                        <button class="btn cor-btn">Yẽgatu</button>
-                                                </div>
+                                            <div class="fundo-btn">
+                                                <button class="btn cor-btn">Yẽgatu</button>
+                                            </div>
                                         </div>
 
                                         <div class="col s12 push-s3 m4 l4 xl4 pull-xl1">
-                                                <div class="fundo-btn">
-                                                        <button class="btn cor-btn">Imprimir</button>
-                                                </div>
+                                            <div class="fundo-btn">
+                                                <button class="btn cor-btn">Imprimir</button>
+                                            </div>
                                         </div>
-                                            
+
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -103,15 +128,16 @@
             <!-- Fim Container e Card da História -->
         </section>
     </div>
-    
+
     <!-- Está no fim para otimizar o caregamento -->
     <script src="js/materialize.min.js"></script>
 
     <!-- Inicializa o sidenav (Menu lateral no mobile) -->
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('.sidenav').sidenav();
         });
     </script>
 </body>
+
 </html>

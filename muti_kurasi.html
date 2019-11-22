@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mutí Kurasí</title>
+
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <script src="js/jquery.min.js"></script>
+
+    <style>
+        @media print {
+            .print {
+                display: none;
+            }
+
+            .content-historia {
+                margin-top: 100px;
+            }
+
+            p.card-title.nome-autor {
+                font-size: 0.7rem;
+            }
+
+            div.conteudo-card {
+                height: 700px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="fundo-paginas">
+        <header class="print">
+            <!-- Início Menu -->
+            <nav class="nav-paginas">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo logo2"><img src="img/logo2.png" alt="Umbuesa Yegatu"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down lista-menu2">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="yegatu.html">Yegatu</a></li>
+                        <li><a href="historias.html">Histórias</a></li>
+                        <li><a href="animacoes.html">Animações</a></li>
+                        <li><a href="videos.html">Vídeos</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="yegatu.html">Yegatu</a></li>
+                <li><a href="historias.html">Histórias</a></li>
+                <li><a href="animacoes.html">Animações</a></li>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <!-- Fim Menu-->
+        </header>
+
+        <section class="conteudo">
+            <!-- Imagem de Destaque -->
+            <div class="img-destaque img2 print"></div>
+
+            <!-- Faixa Verde abaixo da Imagem -->
+            <div class="faixa-img z-depth-1 print"></div>
+
+            <!-- Início Container e Card da História-->
+            <div class="container content-historia">
+                <div class="row">
+                    <div class="col xl12 l12 s12 m6">
+                        <div class="card card-historia">
+                            <div class="conteudo-card">
+                                <div class="titulo-historia">
+                                    <span class="card-title">Mutí Kurasí</span>
+                                    <p class="card-title nome-autor">Josue Hildebrando Pereira,
+                                        Niloderto Pereira Gonçalves,
+                                        Camila Gomes Barbosa</p>
+                                </div>
+
+                                <div class="texto-historia">
+                                    <p style="text-indent: 5%">Kuxima waraita tariku maye tamã asui tasedu, mairame usu
+                                        ume kurasi ara.<br><br>
+                                    </p>
+                                    <p style="text-indent: 5%">Mairame urubu usasẽu pitupituna takua kurasi ara
+                                        rũde.<br><br></p>
+                                    <p style="text-indent: 5%">Mairame yasi pisasu, tamuyakuta tamã as uyukua pirãgua
+                                        takua kusasi ara
+                                        rude.<br><br></p>
+                                    <p style="text-indent: 5%">Yawe tuyita tamasa kurasi ara rũde.</p>
+                                </div>
+
+                                <div class="container buttons-rodape print">
+                                    <div class="row">
+                                        <div class="col s12 push-s3 m4 l4 xl4 push-xl1">
+                                            <div class="fundo-btn">
+                                                <button class="btn cor-btn">Português</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 push-s3 m4 l4 xl4">
+                                            <div class="fundo-btn">
+                                                <button class="btn cor-btn">Yẽgatu</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col s12 push-s3 m4 l4 xl4 pull-xl1">
+                                            <div class="fundo-btn">
+                                                <button class="btn cor-btn" onclick="window.print()">Imprimir</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim Container e Card da História -->
+        </section>
+    </div>
+
+    <!-- Está no fim para otimizar o caregamento -->
+    <script src="js/materialize.min.js"></script>
+
+    <!-- Inicializa o sidenav (Menu lateral no mobile) -->
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+
+</html>

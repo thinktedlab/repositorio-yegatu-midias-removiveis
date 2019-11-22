@@ -353,15 +353,24 @@ span.titulo-sobre.card-title{
 .img-destaque{
     width: 100%;
     height: 400px;
-    background-image: url("../img/historias/destaque.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .faixa-img{
     width: 100%;
     height: 50px;
     background-color: #1AA854;
+}
+
+.img1{
+    background-image: url("../img/historias/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    background-image: url("../img/historias/2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /**********************************/
@@ -465,6 +474,9 @@ p.card-title.nome-autor{
 }
 /******************************************/
 
+.img-destaque-historia{
+    max-height: 135.750px;
+}
 
 .card-lista-historia{
     border-radius: 2% 2% 2% 2%;
